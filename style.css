@@ -766,3 +766,39 @@ body {
   transition: opacity 0.2s ease;
 }
 
+.desa-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.judul-desa {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.desa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  padding: 0 10px;
+  justify-items: center;
+}
+
+.desa-btn {
+  background: #eaf1ff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #234a84;
+  font-size: 14px;
+  border: 1px solid #c8d7f5;
+  display: inline-block;
+  transition: 0.25s ease;
+}
+
+.desa-btn:hover {
+  background: #d7e5ff;
+  transform: translateY(-3px);
+}
+
