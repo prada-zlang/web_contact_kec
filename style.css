@@ -27,7 +27,7 @@
 .main-background {
   flex: 1;
   padding: 30px;
-  background-image: url('assets/logo.png'); /* GANTI DI SINI */
+  background: rgba(180, 180, 180, 1);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
