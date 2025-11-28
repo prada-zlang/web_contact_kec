@@ -11,14 +11,11 @@
 .header-center {
   position: sticky;
   top: 0;
-  color: white;
+  background: white;
   padding: 15px 0;
   text-align: center;
-  z-index: 10;
+  z-index: 999;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  overflow: visible;
 }
 
 .header-logo {
@@ -150,9 +147,6 @@
   text-align: center;
   padding: 15px;
   color: #0b3b66;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  overflow: visible;
 }
 
 /* LOADING SCREEN */
