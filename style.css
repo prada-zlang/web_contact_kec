@@ -11,7 +11,7 @@
 .header-center {
   position: sticky;
   top: 0;
-  background: white;
+  color: white;
   padding: 15px 0;
   text-align: center;
   z-index: 10;
