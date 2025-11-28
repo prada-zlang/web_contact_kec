@@ -16,7 +16,8 @@
   text-align: center;
   z-index: 999;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  clip-path: ellipse(100% 20% at 50% 100%);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .header-logo {
@@ -148,7 +149,8 @@
   text-align: center;
   padding: 15px;
   color: #0b3b66;
-  clip-path: ellipse(100% 20% at 50% 0%);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 /* LOADING SCREEN */
