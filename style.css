@@ -73,33 +73,44 @@
 }
 
 .kontak-item {
-  background: #54bdee79; 
+  background: #54bdee79 !important; /* warna biru transparan */
   border: 2px solid #0b3b66;
-  width: 120px;
+  width: 140px;
   padding: 15px;
   border-radius: 12px;
   text-align: center;
   text-decoration: none;
   color: #0b3b66;
+
+  /* agar icon & teks rapi */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
-  height: 150px;
-}
-
-.kontak-item img {
-  width: 50px;      
-  height: 50px;       
-  object-fit: contain; 
-  margin-bottom: 5px;
+  height: 160px; /* semua kotak seragam */
 }
 
 .kontak-item:hover {
-  background: #0b3b66;
+  background: #0b3b66 !important;
   color: white;
 }
+
+/* ICON BOX FIX */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontak-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 
 /* MAP */
 .map-section iframe {
